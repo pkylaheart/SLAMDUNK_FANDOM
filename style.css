@@ -51,8 +51,9 @@ a:hover {
 }
 
 #intro_text {
-    width: 1173px;
-    height: 399px;
+    width: 100%;
+    max-width: 1173px;
+    height: auto;
     flex-shrink: 0;
     color: #FFF;
     font-family: Finlandica;
@@ -73,7 +74,7 @@ a:hover {
     max-width: 100px;
     height: auto;
     flex-shrink: 0;
-    background: url(bg.png) #D81F25 50% / cover no-repeat;
+    background: url(/bg.png) #D81F25 50% / cover no-repeat;
     background-blend-mode: darken;
 }
 
