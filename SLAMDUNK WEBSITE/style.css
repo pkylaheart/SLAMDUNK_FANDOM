@@ -14,6 +14,16 @@ header {
     letter-spacing: 10px;
 }
 
+#charnav {
+    color:white;
+    font-family: Koulen;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 10px;
+    }
+
 #home_img{
     max: width 100px;
     height: auto;
