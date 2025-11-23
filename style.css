@@ -70,7 +70,7 @@ a:hover {
 }
 
 #background_img {
-    max: width 100px;
+    max-width: 100px;
     height: auto;
     flex-shrink: 0;
     background: url(bg.png) #D81F25 50% / cover no-repeat;
