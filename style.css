@@ -24,7 +24,7 @@ header {
     letter-spacing: 10px;
     }
 
-#home_img{
+#home_img {
     max: width 100px;
     height: auto;
     flex-shrink: 0;
