@@ -5,99 +5,110 @@ body {
 }
 
 header {
-    color:white;
+    color: white;
     font-family: Koulen;
     font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     letter-spacing: 10px;
+    padding: 20px;
+    text-align: center;
+    position: static; /* FIXED HEADER REMOVED */
 }
 
-#charnav {
-    color:white;
-    font-family: Koulen;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 10px;
-    }
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 900px;
+    max-width: 90%;
+    height: auto;
+}
 
 #home_img {
-    max: width 100px;
+    width: 1200px;
+    max-width: 95%;
     height: auto;
-    flex-shrink: 0;
+    display: block;
+    margin: 30px auto;
     aspect-ratio: 739/423;
 }
 
-a:visited {
-    color:rgb(215, 169, 169);
-    background-color:transparent;
-    text-decoration:none;
+header a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 }
 
-a:link {
-    color:white;
-    background-color:transparent;
-    text-decoration:none;
+header a:visited {
+    color: rgb(141, 131, 131);
+    background-color: transparent;
+    text-decoration: none;
 }
 
+header a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
 
-a:hover {
-    color:white;
-    background-color:transparent;
-    text-decoration:none;
+#background_img {
+    width: 100%;
+    background: url(/bg.png) #D81F25 50% / cover no-repeat;
+    background-blend-mode: darken;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.intro_img {
+    width: 900px;
+    max-width: 90%;
+    height: auto;
 }
 
 #intro_text {
-    width: 100%;
-    max-width: 1173px;
-    height: auto;
-    flex-shrink: 0;
+    width: 1173px;
+    max-width: 95%;
     color: #FFF;
     font-family: Finlandica;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     letter-spacing: 9px;
+    margin: 40px auto;
+    line-height: 1.5;
 }
 
 #last_banner {
     width: 1234px;
-    height: 617px;
-    flex-shrink: 0;
-}
-
-#background_img {
-    max-width: 100px;
+    max-width: 95%;
     height: auto;
-    flex-shrink: 0;
-    background: url(/bg.png) #D81F25 50% / cover no-repeat;
-    background-blend-mode: darken;
+    margin-top: 60px;
 }
 
-footer{
-    background-color:#771313;
+footer {
+    background-color: #771313;
+    padding: 30px 0;
+    text-align: center;
 }
 
-#sm_icons{
-    text-align:center
-}
-
-#footer_img{
+#footer_img img {
     width: 290px;
-    height: 290px;
-    flex-shrink: 0;
+    height: auto;
 }
-    #footer_msg{
+
+#sm_icons img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+#footer_msg {
     color: #FFF;
     font-family: Fredoka;
     font-size: 25px;
-    font-style: normal;
-    text-align: center;
-    font-weight: 400;
-    line-height: normal;
     letter-spacing: 6.25px;
 }
